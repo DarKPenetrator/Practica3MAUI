@@ -2,26 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica3Jorge.DetalleArticuloPage"
-             Title="{Binding Nombre}">
+             Title="Detalles del Producto"
+             BackgroundColor="#1C1C1C">
     <VerticalStackLayout Padding="10">
-        <!-- Barra de pestañas simulada -->
-        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*">
-            <Button Text="Datos" 
-                    Grid.Column="0" 
-                    BackgroundColor="LightGray"
-                    TextColor="Black"
-                    FontAttributes="Bold"
-                    Clicked="OnDatosTabClicked" />
+        <!-- Barra de pestañas -->
+        <Grid RowDefinitions="Auto"  ColumnDefinitions="*,*">
+            <!-- Botón Datos -->
+            <Button x:Name="DatosButton"
+            Margin="10"
+            Text="Datos"
+            Grid.Column="0"
+            BackgroundColor="#FFA500"
+            TextColor="Black"
+            FontAttributes="Bold"
+            Clicked="OnDatosTabClicked" />
 
-            <Button Text="Opiniones" 
-                    Grid.Column="1" 
-                    BackgroundColor="LightGray"
-                    TextColor="Black"
-                    FontAttributes="Bold"
-                    Clicked="OnOpinionesTabClicked" />
+            <!-- Botón Opiniones -->
+            <Button x:Name="OpinionesButton"
+            Margin="10"
+            Text="Opiniones"
+            Grid.Column="1"
+            BackgroundColor="LightBlue"
+            TextColor="Black"
+            FontAttributes="Bold"
+            Clicked="OnOpinionesTabClicked" />
         </Grid>
-
-        <!-- Contenedor dinámico para el contenido de las pestañas -->
+        <!-- Contenedor dinámico -->
         <ContentView x:Name="TabContent" />
     </VerticalStackLayout>
 </ContentPage>

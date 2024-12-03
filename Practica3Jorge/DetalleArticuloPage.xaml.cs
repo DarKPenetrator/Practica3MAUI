@@ -6,6 +6,9 @@ namespace Practica3Jorge;
 [QueryProperty(nameof(Articulo), "articulo")]
 public partial class DetalleArticuloPage : ContentPage
 {
+
+   
+
     private Articulo _articulo;
     public Articulo Articulo
     {
@@ -21,6 +24,7 @@ public partial class DetalleArticuloPage : ContentPage
     public DetalleArticuloPage()
     {
         InitializeComponent(); // Vincula XAML y código
+        BindingContext = this;
         MostrarDatos(); // Mostrar los datos por defecto
     }
 
@@ -31,15 +35,18 @@ public partial class DetalleArticuloPage : ContentPage
             Padding = 10,
             Children =
             {
-                new Label { Text = "Datos del producto", FontSize = 20, FontAttributes = FontAttributes.Bold },  new Image
+
+                new Label { Text = $"{Articulo?.Nombre}",  FontSize = 20, FontAttributes = FontAttributes.Bold ,TextColor = Colors.Wheat,HorizontalOptions = LayoutOptions.Center, // Centrar horizontalmente el contenedor
+                HorizontalTextAlignment = TextAlignment.Center},
+                new Image
             {
                 Source = Articulo?.Imagen,
                 HeightRequest = 200,
                 HorizontalOptions = LayoutOptions.Center
             },
-                new Label { Text = $"Nombre: {Articulo?.Nombre}", FontSize = 16 },
-                new Label { Text = $"Descripción: {Articulo?.Descripcion}", FontSize = 16 },
-                new Label { Text = $"Precio: {Articulo?.Precio:C}", FontSize = 16, TextColor = Colors.Green }
+                new Label { Text = $"Descripción: {Articulo?.Descripcion}", FontSize = 16,TextColor = Colors.Wheat,HorizontalOptions = LayoutOptions.Center,  },
+                new Label { Text = $"Precio: {Articulo?.Precio:C}", FontSize = 16, TextColor = Colors.Green,HorizontalOptions = LayoutOptions.Center, // Centrar horizontalmente el contenedor
+                HorizontalTextAlignment = TextAlignment.Center }
             }
         };
     }
@@ -59,13 +66,38 @@ public partial class DetalleArticuloPage : ContentPage
         };
     }
 
+
     private void OnDatosTabClicked(object sender, EventArgs e)
     {
+        var datosButton = (Button)sender; // El botón "Datos"
+        var opinionesButton = (Button)FindByName("OpinionesButton"); // Buscar el botón "Opiniones"
+
+        // Cambiar colores
+        datosButton.BackgroundColor = Color.FromArgb("#FFA500"); // Naranja
+        opinionesButton.BackgroundColor = Colors.LightBlue; // Azul claro
+
+        // Mostrar datos
         MostrarDatos();
     }
 
     private void OnOpinionesTabClicked(object sender, EventArgs e)
     {
+        var opinionesButton = (Button)sender; // El botón "Opiniones"
+        var datosButton = (Button)FindByName("DatosButton"); // Buscar el botón "Datos"
+
+        // Cambiar colores
+        opinionesButton.BackgroundColor = Color.FromArgb("#FFA500"); // Naranja
+        datosButton.BackgroundColor = Colors.LightBlue; // Azul claro
+
+        // Mostrar opiniones
         MostrarOpiniones();
     }
+
+
+
+
+
+
+
+
 }
