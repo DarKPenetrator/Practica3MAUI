@@ -76,6 +76,7 @@
 	  <None Remove="Resources\Images\pagar.png" />
 	  <None Remove="Resources\Images\piramidedelhorizonteinfinitosf.png" />
 	  <None Remove="Resources\Images\simbolodeorigenestelarsf.png" />
+	  <None Remove="Resources\Images\ticketpsiatrico.png" />
 	  <None Remove="Resources\Images\tubosdeensayosf.png" />
 	</ItemGroup>
 

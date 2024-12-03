@@ -23,7 +23,7 @@
                 FontAttributes="Bold"
                 FontSize="28"
                 HorizontalTextAlignment="Center"
-                Text="Easy Cart" />
+                Text="Tienda Galactica" />
         </VerticalStackLayout>
     </Shell.FlyoutHeader>
 
@@ -55,7 +55,8 @@
         <ToolbarItem
             IconImageSource="cesta.png"
             Order="Primary"
-            Priority="1" />
+            Priority="1"
+            Clicked="OnCestaToolbarClicked"/>
     </Shell.ToolbarItems>
 
 </Shell>

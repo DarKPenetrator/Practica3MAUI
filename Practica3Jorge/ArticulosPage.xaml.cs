@@ -68,6 +68,24 @@ new Articulo("Destilador de Etherium",
 "Este destilador fue diseñado para separar el éter puro de los elementos cósmicos residuales. Fue creado en el año 4520 por los Alquimistas del Vacío, una civilización que exploraba la conversión de materia en energía pura para alimentar portales dimensionales.\n\nDatos Importantes:\n\nLínea Temporal nº: 451\nUniverso: Zeta-13\nGalaxia: Espiral de Hiperión\nAño: 4520",
 9100.00m, "destiladordeetheriumsf.png"),
 
+new Articulo(
+    "Ticket para el Psiquiatra",
+  "Agradecemos tu visita y tus compras en nuestra tienda. Sin embargo, tras analizar detenidamente los patrones de compra de nuestros clientes, hemos llegado a la conclusión de que adquirir productos en esta tienda suele ser indicio de cierto... desbalance emocional.\nPor ello, y como muestra de nuestro compromiso con tu bienestar, te ofrecemos este ticket que incluye una cita programada con un psiquiatra de confianza.",
+    49.99m,
+    "ticketpsiatrico.png",
+    new List<string>
+    {
+        "Gracias al Dr. Jonathan Crane, finalmente logré enfrentar mis miedos y recuperar el control de mi vida. ¡Es un verdadero genio!",
+        "No estaba seguro de ir, pero tras mi primera sesión con el Dr. Stephen Strange, siento que el multiverso no tiene tantos secretos para mí. ¡Increíble profesional!",
+        "Mi vida ha dado un giro completo. De no entender por qué coleccionaba objetos extraños, ahora tengo claridad mental. ¡Recomiendo totalmente esta experiencia!",
+        "El Dr. Charles Xavier me ayudó a conectar con mi mente como nunca antes. Ha sido un proceso revelador y estoy agradecido por esta oportunidad.",
+        "Desde que usé este ticket, siento que mis días tienen más sentido. No sé si es magia o ciencia, pero ha funcionado.",
+        "El Dr. Harleen Quinzel me escuchó como nadie antes. Fue algo liberador, aunque creo que terminaré visitándola más de lo planeado.",
+        "Mi vida estaba llena de caos hasta que decidí usar este ticket. Ahora, cada decisión que tomo tiene un propósito claro. ¡Una inversión increíble!",
+        "Nunca pensé que una consulta con el Dr. Victor Fries cambiaría mi perspectiva sobre el frío de la vida. ¡Recomendado para quienes necesitan calma!"
+    }
+),
+
 
         };
 

@@ -1,15 +1,13 @@
-using Microsoft.Maui.Controls;
-using Practica3Jorge.Models; // Importar clase Articulo
+ï»¿using Microsoft.Maui.Controls;
+using Practica3Jorge.Models;
 
 namespace Practica3Jorge;
 
 [QueryProperty(nameof(Articulo), "articulo")]
 public partial class DetalleArticuloPage : ContentPage
 {
-
-   
-
     private Articulo _articulo;
+
     public Articulo Articulo
     {
         get => _articulo;
@@ -17,87 +15,126 @@ public partial class DetalleArticuloPage : ContentPage
         {
             _articulo = value;
             BindingContext = _articulo;
-            MostrarDatos();// Vincula los datos del producto
+            MostrarDatos(); // Cargar datos por defecto
         }
     }
 
     public DetalleArticuloPage()
     {
-        InitializeComponent(); // Vincula XAML y código
-        BindingContext = this;
-        MostrarDatos(); // Mostrar los datos por defecto
+        InitializeComponent();
     }
 
     private void MostrarDatos()
     {
-        TabContent.Content = new VerticalStackLayout
-        {
-            Padding = 10,
-            Children =
-            {
+        // Limpiar contenido previo
+        TabContent.Children.Clear();
 
-                new Label { Text = $"{Articulo?.Nombre}",  FontSize = 20, FontAttributes = FontAttributes.Bold ,TextColor = Colors.Wheat,HorizontalOptions = LayoutOptions.Center, // Centrar horizontalmente el contenedor
-                HorizontalTextAlignment = TextAlignment.Center},
-                new Image
-            {
-                Source = Articulo?.Imagen,
-                HeightRequest = 200,
-                HorizontalOptions = LayoutOptions.Center
-            },
-                new Label { Text = $"Descripción: {Articulo?.Descripcion}", FontSize = 16,TextColor = Colors.Wheat,HorizontalOptions = LayoutOptions.Center,  },
-                new Label { Text = $"Precio: {Articulo?.Precio:C}", FontSize = 16, TextColor = Colors.Green,HorizontalOptions = LayoutOptions.Center, // Centrar horizontalmente el contenedor
-                HorizontalTextAlignment = TextAlignment.Center }
-            }
-        };
+        // Agregar datos del artÃ­culo
+        TabContent.Children.Add(new Label
+        {
+            Text = $"Nombre: {Articulo?.Nombre}",
+            FontSize = 20,
+            FontAttributes = FontAttributes.Bold,
+            TextColor = Colors.Wheat,
+            HorizontalOptions = LayoutOptions.Center
+        });
+
+        TabContent.Children.Add(new Image
+        {
+            Source = Articulo?.Imagen,
+            HeightRequest = 175,
+            HorizontalOptions = LayoutOptions.Center
+        });
+
+        TabContent.Children.Add(new Label
+        {
+            Text = $"DescripciÃ³n: {Articulo?.Descripcion}",
+            FontSize = 14,
+            TextColor = Colors.Wheat,
+            HorizontalOptions = LayoutOptions.Start
+        });
+
+        TabContent.Children.Add(new Label
+        {
+            Text = $"Precio: {Articulo?.Precio:N2} â‚¡",
+            FontSize = 16,
+            TextColor = Colors.Green,
+            HorizontalOptions = LayoutOptions.Start
+        });
+
+        TabContent.Children.Add(new Button
+        {
+            Text = "Agregar al Carrito",
+            FontSize = 16,
+            BackgroundColor = Color.FromArgb("#FFA500"), // Naranja
+            TextColor = Colors.White,
+            FontAttributes = FontAttributes.Bold,
+            CornerRadius = 20,
+            Padding = new Thickness(10),
+            Margin = new Thickness(0, 20), // Espaciado arriba y abajo
+            HorizontalOptions = LayoutOptions.Center
+        });
     }
 
     private void MostrarOpiniones()
     {
-        TabContent.Content = new VerticalStackLayout
-        {
-            Padding = 10,
-            Children =
-            {
-                new Label { Text = "Opiniones", FontSize = 20, FontAttributes = FontAttributes.Bold },
-                new Label { Text = "Opinión 1: Excelente producto.", FontSize = 16 },
-                new Label { Text = "Opinión 2: Muy útil.", FontSize = 16 },
-                new Label { Text = "Opinión 3: Lo recomiendo.", FontSize = 16 }
-            }
-        };
-    }
+        // Limpiar contenido previo
+        TabContent.Children.Clear();
 
+        // Agregar tÃ­tulo de opiniones
+        TabContent.Children.Add(new Label
+        {
+            Text = "Opiniones",
+            FontSize = 20,
+            FontAttributes = FontAttributes.Bold,
+            TextColor = Colors.LightBlue,
+            HorizontalOptions = LayoutOptions.Center
+        });
+
+        // Agregar opiniones dinÃ¡micamente
+        if (Articulo.Opiniones != null && Articulo.Opiniones.Any())
+        {
+            foreach (var opinion in Articulo.Opiniones)
+            {
+                TabContent.Children.Add(new Frame
+                {
+                    CornerRadius = 10,
+                    BorderColor = Colors.LightGray,
+                    Padding = 10,
+                    Margin = new Thickness(0, 5),
+                    BackgroundColor = Colors.Black,
+                    Content = new Label
+                    {
+                        Text = opinion,
+                        FontSize = 16,
+                        TextColor = Colors.Wheat
+                    }
+                });
+            }
+        }
+        else
+        {
+            TabContent.Children.Add(new Label
+            {
+                Text = "Este producto aÃºn no tiene opiniones.",
+                FontSize = 16,
+                TextColor = Colors.Gray,
+                HorizontalOptions = LayoutOptions.Center
+            });
+        }
+    }
 
     private void OnDatosTabClicked(object sender, EventArgs e)
     {
-        var datosButton = (Button)sender; // El botón "Datos"
-        var opinionesButton = (Button)FindByName("OpinionesButton"); // Buscar el botón "Opiniones"
-
-        // Cambiar colores
-        datosButton.BackgroundColor = Color.FromArgb("#FFA500"); // Naranja
-        opinionesButton.BackgroundColor = Colors.LightBlue; // Azul claro
-
-        // Mostrar datos
+        DatosButton.BackgroundColor = Color.FromArgb("#FFA500");
+        OpinionesButton.BackgroundColor = Colors.LightBlue;
         MostrarDatos();
     }
 
     private void OnOpinionesTabClicked(object sender, EventArgs e)
     {
-        var opinionesButton = (Button)sender; // El botón "Opiniones"
-        var datosButton = (Button)FindByName("DatosButton"); // Buscar el botón "Datos"
-
-        // Cambiar colores
-        opinionesButton.BackgroundColor = Color.FromArgb("#FFA500"); // Naranja
-        datosButton.BackgroundColor = Colors.LightBlue; // Azul claro
-
-        // Mostrar opiniones
+        OpinionesButton.BackgroundColor = Color.FromArgb("#FFA500");
+        DatosButton.BackgroundColor = Colors.LightBlue;
         MostrarOpiniones();
     }
-
-
-
-
-
-
-
-
 }

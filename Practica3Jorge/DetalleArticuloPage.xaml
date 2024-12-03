@@ -4,30 +4,32 @@
              x:Class="Practica3Jorge.DetalleArticuloPage"
              Title="Detalles del Producto"
              BackgroundColor="#1C1C1C">
-    <VerticalStackLayout Padding="10">
+    <VerticalStackLayout Padding="10" Spacing="10">
         <!-- Barra de pestañas -->
-        <Grid RowDefinitions="Auto"  ColumnDefinitions="*,*">
-            <!-- Botón Datos -->
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*">
             <Button x:Name="DatosButton"
-            Margin="10"
-            Text="Datos"
-            Grid.Column="0"
-            BackgroundColor="#FFA500"
-            TextColor="Black"
-            FontAttributes="Bold"
-            Clicked="OnDatosTabClicked" />
-
-            <!-- Botón Opiniones -->
+                    Margin="10"
+                    Text="Datos"
+                    Grid.Column="0"
+                    BackgroundColor="#FFA500"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Clicked="OnDatosTabClicked" />
             <Button x:Name="OpinionesButton"
-            Margin="10"
-            Text="Opiniones"
-            Grid.Column="1"
-            BackgroundColor="LightBlue"
-            TextColor="Black"
-            FontAttributes="Bold"
-            Clicked="OnOpinionesTabClicked" />
+                    Margin="10"
+                    Text="Opiniones"
+                    Grid.Column="1"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Clicked="OnOpinionesTabClicked" />
         </Grid>
-        <!-- Contenedor dinámico -->
-        <ContentView x:Name="TabContent" />
+
+        <!-- Contenedor desplazable -->
+        <ScrollView VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="TabContent" 
+                         Padding="10" 
+                         Spacing="10" />
+        </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

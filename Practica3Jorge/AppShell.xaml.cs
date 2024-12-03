@@ -9,5 +9,14 @@
             Routing.RegisterRoute("DetalleArticuloPage", typeof(DetalleArticuloPage));
 
         }
+
+
+
+
+        private async void OnCestaToolbarClicked(object sender, EventArgs e)
+        {
+            // Navegar a CestaPage
+            await Shell.Current.GoToAsync("//CestaPage");
+        }
     }
 }
