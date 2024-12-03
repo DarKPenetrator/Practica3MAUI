@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Practica3Jorge.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Practica3Jorge"
+    Title="Practica3Jorge"
+    Shell.BackgroundColor="#30feb8"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True">
+
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout
+            Padding="15"
+            BackgroundColor="AliceBlue"
+            VerticalOptions="CenterAndExpand">
+            <Image
+                HeightRequest="120"
+                Source="logo.png"
+                WidthRequest="120" />
+            <Label
+                Padding="0,10,0,0"
+                FontAttributes="Bold"
+                FontSize="28"
+                HorizontalTextAlignment="Center"
+                Text="Easy Cart" />
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="dashboard" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="home.png"
+            Route="MainPage" />
+        <ShellContent
+            Title="Artículos"
+            
+            Icon="lista.png"
+            ContentTemplate="{DataTemplate local:ArticulosPage}"
+            Route="ArticulosPage" />
+
+        <ShellContent
+            Title="Carrito"
+            
+            Icon="cesta.png"
+            ContentTemplate="{DataTemplate local:CestaPage}"
+            Route="CestaPage" />
+  
+     
+
+    </FlyoutItem>
+
+    <Shell.ToolbarItems>
+        <ToolbarItem
+            IconImageSource="cesta.png"
+            Order="Primary"
+            Priority="1" />
+    </Shell.ToolbarItems>
+
+</Shell>
+

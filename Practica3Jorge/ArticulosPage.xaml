@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3Jorge.ArticulosPage"
+             Title="Lista de Artículos"
+             BackgroundColor="#1C1C1C">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <!-- Título de la página -->
+            <Label Text="Productos Disponibles"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#00FFFF" />
+            
+
+            <!-- Colección de productos -->
+            <CollectionView ItemsSource="{Binding Articulos}" VerticalOptions="FillAndExpand">
+                <CollectionView.ItemsLayout>
+                    <!-- Diseño en cuadrícula con 2 columnas -->
+                    <GridItemsLayout Orientation="Vertical" Span="2" 
+                                     VerticalItemSpacing="10" HorizontalItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- Contenedor del producto -->
+                        <Frame Padding="10" 
+                               BackgroundColor="#1C1C1C"
+                            CornerRadius="10"
+                               Margin="10"
+                               HasShadow="True">
+                            <VerticalStackLayout>
+                                <!-- Imagen -->
+                                <Image Source="{Binding Imagen}"
+       WidthRequest="80" HeightRequest="80"
+       HorizontalOptions="Center">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnImageTapped" />
+                                    </Image.GestureRecognizers>
+                                </Image>
+
+                                <!-- Nombre -->
+                                <Label Text="{Binding Nombre}" 
+                                       FontAttributes="Bold" 
+                                       TextColor="#00FFFF"
+                                    HorizontalOptions="Center" />
+                                    <!-- Precio -->
+                                <Label Text="{Binding Precio, StringFormat='{0:0.00} ₡'}"
+                                       FontSize="14"
+                                       FontAttributes="Bold"
+                                       TextColor="#FFA500"
+                                        HorizontalOptions="Center" />
+                                        <!-- Botón -->
+                                        <Button Text="Añadir a la cesta"
+                                        BackgroundColor="#FFA500"
+                                            TextColor="White"
+                                        FontSize="12"
+                                        CornerRadius="5"
+                                        CommandParameter="{Binding .}"
+                                        HorizontalOptions="Center" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

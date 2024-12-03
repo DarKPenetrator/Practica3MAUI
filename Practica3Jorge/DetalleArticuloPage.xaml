@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3Jorge.DetalleArticuloPage"
+             Title="{Binding Nombre}">
+    <VerticalStackLayout Padding="10">
+        <!-- Barra de pestañas simulada -->
+        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*">
+            <Button Text="Datos" 
+                    Grid.Column="0" 
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Clicked="OnDatosTabClicked" />
+
+            <Button Text="Opiniones" 
+                    Grid.Column="1" 
+                    BackgroundColor="LightGray"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    Clicked="OnOpinionesTabClicked" />
+        </Grid>
+
+        <!-- Contenedor dinámico para el contenido de las pestañas -->
+        <ContentView x:Name="TabContent" />
+    </VerticalStackLayout>
+</ContentPage>
