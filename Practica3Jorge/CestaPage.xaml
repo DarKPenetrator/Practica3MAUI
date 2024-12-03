@@ -1,12 +1,66 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Practica3Jorge.CestaPage"
-             Title="Carrito">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Carrito de Compras"
+             BackgroundColor="#1C1C1C">
+
+    <Grid RowDefinitions="*,Auto" Padding="10">
+        <!-- Contenido desplazable -->
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Spacing="10">
+                <!-- Título del carrito -->
+                <Label Text="Carrito de Compras"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="White" />
+
+                <!-- Total del carrito -->
+                <Label Text="{Binding Total, StringFormat='Total: {0:N2}₡'}"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       HorizontalOptions="End"
+                       TextColor="Green"
+                       Margin="0,0,10,10" />
+
+                <!-- Mensaje "El carrito está vacío" -->
+                <Label Text="El carrito está vacío."
+                       FontSize="18"
+                       TextColor="Gray"
+                       HorizontalOptions="Center"
+                       IsVisible="{Binding IsCarritoVacio}" />
+
+                <!-- Lista de artículos -->
+                <CollectionView ItemsSource="{Binding Carrito}" 
+                                IsVisible="{Binding IsCarritoLleno}" 
+                                VerticalOptions="FillAndExpand">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10" Margin="5" BackgroundColor="#1C1C1C" BorderColor="Gray" CornerRadius="10">
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding Nombre}" FontSize="16" FontAttributes="Bold" TextColor="White" />
+                                    <Label Text="{Binding Precio, StringFormat='{0:N2}₡'}" FontSize="14" TextColor="Green" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Botón de pagar -->
+        <Button Text="Pagar"
+                Grid.Row="1"
+                BackgroundColor="#FFA500"
+                TextColor="White"
+                FontSize="16"
+                CornerRadius="10"
+                HeightRequest="42"
+                WidthRequest="250"
+                Clicked="OnPagarClicked"/>
+    </Grid>
 </ContentPage>

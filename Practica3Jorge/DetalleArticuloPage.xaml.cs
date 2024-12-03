@@ -66,13 +66,17 @@ public partial class DetalleArticuloPage : ContentPage
         {
             Text = "Agregar al Carrito",
             FontSize = 16,
-            BackgroundColor = Color.FromArgb("#FFA500"), // Naranja
+            BackgroundColor = Color.FromArgb("#FFA500"),
             TextColor = Colors.White,
-            FontAttributes = FontAttributes.Bold,
             CornerRadius = 20,
             Padding = new Thickness(10),
-            Margin = new Thickness(0, 20), // Espaciado arriba y abajo
-            HorizontalOptions = LayoutOptions.Center
+            Margin = new Thickness(0, 20),
+            HorizontalOptions = LayoutOptions.Center,
+            Command = new Command(() =>
+            {
+                CarritoManager.AgregarArticulo(Articulo);
+                DisplayAlert("Carrito", $"{Articulo.Nombre} añadido al carrito.", "OK");
+            })
         });
     }
 

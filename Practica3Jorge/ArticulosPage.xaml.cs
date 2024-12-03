@@ -108,6 +108,18 @@ new Articulo(
     });
     }
 
+
+    private void OnAgregarCarritoClicked(object sender, EventArgs e)
+    {
+        var button = (Button)sender;
+        var articulo = (Articulo)button.BindingContext;
+
+        // Agregar al carrito
+        CarritoManager.AgregarArticulo(articulo);
+
+        // Mostrar el mensaje con la cantidad actualizada
+        DisplayAlert("Carrito", $"{articulo.Nombre} añadido al carrito. Total artículos: {CarritoManager.ObtenerCantidadArticulos()}", "OK");
+    }
 }
 
 

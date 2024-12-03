@@ -61,11 +61,20 @@
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\modeloatomicovintagesf.scale-100.png">
+      <PackagePath>modeloatomicovintagesf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emisariogalacticosf.scale-100.png">
+      <PackagePath>emisariogalacticosf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pagar.scale-100.png">
       <PackagePath>pagar.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\add.scale-100.png">
       <PackagePath>add.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\piramidedelhorizonteinfinitosf.scale-100.png">
+      <PackagePath>piramidedelhorizonteinfinitosf.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\craneoanatomicosf.scale-100.png">
       <PackagePath>craneoanatomicosf.scale-100.png</PackagePath>
@@ -73,17 +82,11 @@
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\simbolodeorigenestelarsf.scale-100.png">
       <PackagePath>simbolodeorigenestelarsf.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cibernauticacranialsf.scale-100.png">
-      <PackagePath>cibernauticacranialsf.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cesta.scale-100.png">
+      <PackagePath>cesta.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista.scale-100.png">
-      <PackagePath>lista.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\megusta.scale-100.png">
-      <PackagePath>megusta.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\destiladordeetheriumsf.scale-100.png">
-      <PackagePath>destiladordeetheriumsf.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ticketpsiatrico.scale-100.png">
+      <PackagePath>ticketpsiatrico.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
       <PackagePath>home.scale-100.png</PackagePath>
@@ -91,38 +94,8 @@
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\tubosdeensayosf.scale-100.png">
       <PackagePath>tubosdeensayosf.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\emisariogalacticosf.scale-100.png">
-      <PackagePath>emisariogalacticosf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cesta.scale-100.png">
-      <PackagePath>cesta.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerebroenfrascosf.scale-100.png">
-      <PackagePath>cerebroenfrascosf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\casa.scale-100.png">
-      <PackagePath>casa.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\piramidedelhorizonteinfinitosf.scale-100.png">
-      <PackagePath>piramidedelhorizonteinfinitosf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ticketpsiatrico.scale-100.png">
-      <PackagePath>ticketpsiatrico.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\modeloatomicovintagesf.scale-100.png">
-      <PackagePath>modeloatomicovintagesf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\meteoritoluminososf.scale-100.png">
-      <PackagePath>meteoritoluminososf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
-      <PackagePath>logo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerebroenergeticosf.scale-100.png">
-      <PackagePath>cerebroenergeticosf.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bustocosmicosf.scale-100.png">
-      <PackagePath>bustocosmicosf.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\destiladordeetheriumsf.scale-100.png">
+      <PackagePath>destiladordeetheriumsf.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
@@ -262,8 +235,35 @@
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerebroenfrascosf.scale-100.png">
+      <PackagePath>cerebroenfrascosf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\megusta.scale-100.png">
+      <PackagePath>megusta.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\meteoritoluminososf.scale-100.png">
+      <PackagePath>meteoritoluminososf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cibernauticacranialsf.scale-100.png">
+      <PackagePath>cibernauticacranialsf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\lista.scale-100.png">
+      <PackagePath>lista.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bustocosmicosf.scale-100.png">
+      <PackagePath>bustocosmicosf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\brazoroboticosf.scale-100.png">
       <PackagePath>brazoroboticosf.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\casa.scale-100.png">
+      <PackagePath>casa.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cerebroenergeticosf.scale-100.png">
+      <PackagePath>cerebroenergeticosf.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\georg\source\repos\Practica3Jorge\Practica3Jorge\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Practica3Jorge.deps.json">
       <PackagePath>Practica3Jorge.deps.json</PackagePath>

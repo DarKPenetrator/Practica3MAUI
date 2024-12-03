@@ -3,52 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\cestapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\cestapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\cestapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\cestapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\detallearticulopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\detallearticulopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\carritomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\carritomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\detallearticulopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\detallearticulopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\detallearticulopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\detallearticulopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\articulospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\articulospage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\articulospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\articulospage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|c:\\users\\georg\\source\\repos\\practica3jorge\\practica3jorge\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB55C68C-9672-46FF-AD0B-CB3B47EB1158}|Practica3Jorge\\Practica3Jorge.csproj|solutionrelative:practica3jorge\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,8 +46,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CestaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml",
+              "RelativeDocumentMoniker": "Practica3Jorge\\CestaPage.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml",
+              "RelativeToolTip": "Practica3Jorge\\CestaPage.xaml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T16:10:38.116Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -74,132 +76,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appicon.svg",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\Resources\\AppIcon\\appicon.svg",
-              "RelativeDocumentMoniker": "Practica3Jorge\\Resources\\AppIcon\\appicon.svg",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\Resources\\AppIcon\\appicon.svg",
-              "RelativeToolTip": "Practica3Jorge\\Resources\\AppIcon\\appicon.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKTSURBVDhPjVNLSFRRGP7unTsz9w75uOaMZlMNpo1aFFJRodRGN7UwatMiKgga3JgVRBSNSA8RooUFLRycCCpc9ITIFi0EW\u002BhCW/gONYUcxplsQL13nKv3dM6ZGV\u002BE9N37c\u002B455/\u002B\u002B/7s/5whYA7/fP5L63BSCIDxvbGxsAiEktZQEE6Brm6K1tXWS5TU0NNQyjsiZKQgCBgBChQ2Q\u002BfswpytgDLmg9zihD9XBNJfhcrlstPoeqlVPRS6uCBDy1broLnN29PkxPeaFFmpC79gOdEu9sB8KQRt\u002Bz/NUVbUGAoGpJIfc5j2gZIuv3fam/sCNGrdjGLGwE23hR\u002BiMeBCKAbXlOTgfr0VW9QfqD4iEZ5BIJNAWDI5yB75X0tXqwrc1JZk90MKVUEq/4UplFc4W5UKwiHjaO4tx90NWiYfT5cQuj4dRITLrZfn9104XtOD3\u002BE4z7/BrqIoKZ4YM37E8XNifA4vdiuCIApPzWY9Wmy9h6UfOpd13t89FstEceyF2PJlAfNHkm6y6xSbxcTASpyuMyFT4NoeI6PV6mzEvvIy0oO\u002BXPVGULaMs186jVLVil0zzF\u002BI4ki\u002BnqjP\u002BGgemrp0Z\u002BHn8T0d0nyrOTky\u002B8x0tNoxE0iZrcSqXz5lAcroCcXkeBcGpyzcnowRTDk9xoDuEmbkE5vRlfB6cRcWzIXibv\u002BNTf5ST0y7SEBa6MGIaOFje2VUnZSgPTFECMZM9YCeLde6cdwvuVLlXrVMFWXGAHqRRaUlDezyEic6tlbFBbW/oS8nHbf0RDZIooDDLipPeTJwozIJJH4EIoG/y1/6Fe/5bj6lFousa0WjoWjoWiLYhGNidWHcXDNhOsVGWFSg0ZCUdDigbIo11Zv73Oq8C\u002BAsr5V2IWWNA0gAAAABJRU5ErkJggg==",
-              "WhenOpened": "2024-12-03T15:49:31.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CestaPage.xaml",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml",
-              "RelativeDocumentMoniker": "Practica3Jorge\\CestaPage.xaml",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml",
-              "RelativeToolTip": "Practica3Jorge\\CestaPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T12:23:44.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DetalleArticuloPage.xaml",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\DetalleArticuloPage.xaml",
               "RelativeDocumentMoniker": "Practica3Jorge\\DetalleArticuloPage.xaml",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\DetalleArticuloPage.xaml",
               "RelativeToolTip": "Practica3Jorge\\DetalleArticuloPage.xaml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T23:00:16.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Practica3Jorge\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\MainPage.xaml.cs",
-              "RelativeToolTip": "Practica3Jorge\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T18:25:41.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Practica3Jorge\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\App.xaml.cs",
-              "RelativeToolTip": "Practica3Jorge\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T23:11:48.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "Practica3Jorge\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml.cs",
-              "RelativeToolTip": "Practica3Jorge\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T18:25:26.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Articulo.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\Articulo.cs",
-              "RelativeDocumentMoniker": "Practica3Jorge\\Articulo.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\Articulo.cs",
-              "RelativeToolTip": "Practica3Jorge\\Articulo.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T21:32:27.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml",
-              "RelativeDocumentMoniker": "Practica3Jorge\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml",
-              "RelativeToolTip": "Practica3Jorge\\AppShell.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T00:11:49.534Z",
+              "WhenOpened": "2024-12-03T17:15:03.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ArticulosPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\ArticulosPage.xaml.cs",
-              "RelativeDocumentMoniker": "Practica3Jorge\\ArticulosPage.xaml.cs",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\ArticulosPage.xaml.cs",
-              "RelativeToolTip": "Practica3Jorge\\ArticulosPage.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAADwv0gAAACmAQAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:33:57.757Z",
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Practica3Jorge\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml",
+              "RelativeToolTip": "Practica3Jorge\\AppShell.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T16:17:06.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "CestaPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml.cs",
+              "RelativeDocumentMoniker": "Practica3Jorge\\CestaPage.xaml.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CestaPage.xaml.cs",
+              "RelativeToolTip": "Practica3Jorge\\CestaPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:10:52.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DetalleArticuloPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\DetalleArticuloPage.xaml.cs",
               "RelativeDocumentMoniker": "Practica3Jorge\\DetalleArticuloPage.xaml.cs",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\DetalleArticuloPage.xaml.cs",
               "RelativeToolTip": "Practica3Jorge\\DetalleArticuloPage.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAADwvzMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T23:00:20.399Z",
+              "WhenOpened": "2024-12-03T16:09:59.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticulosPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\ArticulosPage.xaml.cs",
+              "RelativeDocumentMoniker": "Practica3Jorge\\ArticulosPage.xaml.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\ArticulosPage.xaml.cs",
+              "RelativeToolTip": "Practica3Jorge\\ArticulosPage.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwHkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:08:53.08Z",
               "EditorCaption": ""
             },
             {
@@ -210,22 +147,35 @@
               "RelativeDocumentMoniker": "Practica3Jorge\\ArticulosPage.xaml",
               "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\ArticulosPage.xaml",
               "RelativeToolTip": "Practica3Jorge\\ArticulosPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T19:33:50.217Z",
+              "WhenOpened": "2024-12-03T16:08:51.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\App.xaml",
-              "RelativeDocumentMoniker": "Practica3Jorge\\App.xaml",
-              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\App.xaml",
-              "RelativeToolTip": "Practica3Jorge\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T23:10:00.509Z",
+              "DocumentIndex": 2,
+              "Title": "CarritoManager.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CarritoManager.cs",
+              "RelativeDocumentMoniker": "Practica3Jorge\\CarritoManager.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\CarritoManager.cs",
+              "RelativeToolTip": "Practica3Jorge\\CarritoManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:07:08.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Practica3Jorge\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\georg\\source\\repos\\Practica3Jorge\\Practica3Jorge\\AppShell.xaml.cs",
+              "RelativeToolTip": "Practica3Jorge\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:17:30.256Z",
               "EditorCaption": ""
             }
           ]
