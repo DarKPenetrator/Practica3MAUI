@@ -6,21 +6,52 @@ namespace Practica3Jorge;
 
 public static class CarritoManager
 {
-    public static ObservableCollection<Articulo> Carrito { get; private set; } = new ObservableCollection<Articulo>();
+    private static ObservableCollection<Articulo> _carrito = new ObservableCollection<Articulo>();
+
+    public static ObservableCollection<ArticuloAgrupado> CarritoAgrupado
+    {
+        get
+        {
+            var agrupado = _carrito
+                .GroupBy(a => a.Nombre)
+                .Select(g => new ArticuloAgrupado
+                {
+                    Articulo = g.First(),
+                    Cantidad = g.Count()
+                });
+
+            return new ObservableCollection<ArticuloAgrupado>(agrupado);
+        }
+    }
+
+    public static ObservableCollection<Articulo> Carrito => _carrito;
 
     public static void AgregarArticulo(Articulo articulo)
     {
-        Carrito.Add(articulo);
+        _carrito.Add(articulo);
     }
 
-    public static decimal ObtenerTotal()
+    public static void EliminarArticulo(Articulo articulo)
     {
-        return Carrito.Sum(a => a.Precio);
+        _carrito.Remove(articulo);
     }
 
-    // NUEVO: Método para obtener la cantidad de artículos en el carrito
     public static int ObtenerCantidadArticulos()
     {
         return Carrito.Count;
     }
+
+    public static void VaciarCarrito()
+    {
+        _carrito.Clear();
+    }
+
+}
+
+public class ArticuloAgrupado
+{
+    public decimal TotalPorGrupo => Cantidad * Articulo.Precio;
+
+    public Articulo Articulo { get; set; }
+    public int Cantidad { get; set; }
 }

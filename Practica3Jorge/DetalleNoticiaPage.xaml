@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica3Jorge.DetalleNoticiaPage"
+             Title="{Binding Titulo}"
+             BackgroundColor="#1C1C1C">
+    <ScrollView>
+        <VerticalStackLayout Padding="10">
+            <Image Source="{Binding Imagen}" HeightRequest="200" HorizontalOptions="Center" />
+            <Label Text="{Binding Titulo}" FontSize="24" FontAttributes="Bold" TextColor="White" />
+            <Label Text="{Binding Fecha}" FontSize="12" TextColor="Gray" />
+            <Label Text="{Binding Descripcion}" FontSize="16" TextColor="LightGray" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

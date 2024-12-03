@@ -31,7 +31,7 @@
                        HorizontalOptions="Center"
                        IsVisible="{Binding IsCarritoVacio}" />
 
-                <!-- Lista de artículos -->
+                <!-- Lista de artículos agrupados -->
                 <CollectionView ItemsSource="{Binding Carrito}" 
                                 IsVisible="{Binding IsCarritoLleno}" 
                                 VerticalOptions="FillAndExpand">
@@ -41,13 +41,38 @@
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Frame Padding="10" Margin="5" BackgroundColor="#1C1C1C" BorderColor="Gray" CornerRadius="10">
-                                <VerticalStackLayout>
-                                    <Label Text="{Binding Nombre}" FontSize="16" FontAttributes="Bold" TextColor="White" />
-                                    <Label Text="{Binding Precio, StringFormat='{0:N2}₡'}" FontSize="14" TextColor="Green" />
-                                </VerticalStackLayout>
+                                <Grid ColumnDefinitions="50,*,Auto" RowDefinitions="Auto" VerticalOptions="Center">
+                                    <!-- Cantidad -->
+                                    <Label Text="{Binding Cantidad}" 
+                       FontSize="16" 
+                       FontAttributes="Bold" 
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       Grid.Column="0" />
+
+                                    <!-- Detalles del artículo -->
+                                    <VerticalStackLayout Grid.Column="1" Margin="10,0">
+                                        <Label Text="{Binding Articulo.Nombre}" 
+                           FontSize="16" 
+                           FontAttributes="Bold" 
+                           TextColor="White"
+                           LineBreakMode="TailTruncation" />
+                                        <HorizontalStackLayout>
+                                            <Label Text="{Binding Articulo.Precio, StringFormat='{0:N2}₡'}" 
+                               FontSize="14" 
+                               TextColor="Green" />
+                                            <Label Text="{Binding TotalPorGrupo, StringFormat=' ({0:N2}₡)'}"
+                               FontSize="14"
+                               TextColor="Gray"
+                               Margin="5,0,0,0" />
+                                        </HorizontalStackLayout>
+                                    </VerticalStackLayout>
+                                </Grid>
                             </Frame>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
+
                 </CollectionView>
             </VerticalStackLayout>
         </ScrollView>
@@ -57,10 +82,9 @@
                 Grid.Row="1"
                 BackgroundColor="#FFA500"
                 TextColor="White"
-                FontSize="16"
+                FontSize="18"
                 CornerRadius="10"
-                HeightRequest="42"
-                WidthRequest="250"
-                Clicked="OnPagarClicked"/>
+                HeightRequest="50"
+                Clicked="OnPagarClicked" />
     </Grid>
 </ContentPage>

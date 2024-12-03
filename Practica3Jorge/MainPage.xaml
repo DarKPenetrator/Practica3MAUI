@@ -1,26 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Practica3Jorge.MainPage">
+             x:Class="Practica3Jorge.MainPage"
+             BackgroundColor="#1C1C1C">
 
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+    <VerticalStackLayout Padding="20" Spacing="20"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
 
-        
-            <Image
-            HeightRequest="220"
-            Source="logo.png"
-            WidthRequest="220" />
-            <Label
-            Margin="0,20"
-            FontAttributes="Bold"
-            FontSize="45"
-            HorizontalTextAlignment="Center"
-            Text="Tienda" />
-            <Button Text="Iniciar sesión" />
-        
-            
-           
-        </VerticalStackLayout>
-  
+        <!-- Logo -->
+        <Image Source="logo2.png"
+               HeightRequest="200"
+               WidthRequest="200"
+               HorizontalOptions="Center" />
 
+        <!-- Título -->
+        <Label Text="Bienvenido a Tienda Galáctica"
+               FontSize="26"
+               FontAttributes="Bold"
+               TextColor="#00FFFF"
+               HorizontalTextAlignment="Center" />
+
+        <!-- Descripción -->
+        <Label Text="Explora la colección más futurista del multiverso y haz tus compras con un solo clic."
+               FontSize="14"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Margin="10,0,10,20" />
+
+
+
+        <!-- Botón para explorar directamente -->
+        <Button Text="Explorar Artículos"
+                BackgroundColor="#00FFFF"
+                TextColor="Black"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                WidthRequest="200"
+                Clicked="OnExplorarClicked" />
+        <!-- Botón de inicio de sesión -->
+        <Button Text="Noticias"
+                BackgroundColor="#FFA500"
+                TextColor="White"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                HeightRequest="50"
+                HorizontalOptions="Center"
+                WidthRequest="200"
+                Clicked="OnNoticiasClicked"/>
+
+    </VerticalStackLayout>
 </ContentPage>

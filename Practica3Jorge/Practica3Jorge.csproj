@@ -68,11 +68,20 @@
 	  <None Remove="Resources\Images\destiladordeetheriumsf.png" />
 	  <None Remove="Resources\Images\emisariogalacticosf.png" />
 	  <None Remove="Resources\Images\home.png" />
+	  <None Remove="Resources\Images\inicio.png" />
+	  <None Remove="Resources\Images\inicio2.png" />
 	  <None Remove="Resources\Images\lista.png" />
 	  <None Remove="Resources\Images\logo.png" />
+	  <None Remove="Resources\Images\logo2.png" />
 	  <None Remove="Resources\Images\megusta.png" />
 	  <None Remove="Resources\Images\meteoritoluminososf.png" />
 	  <None Remove="Resources\Images\modeloatomicovintagesf.png" />
+	  <None Remove="Resources\Images\not1.png" />
+	  <None Remove="Resources\Images\not2.png" />
+	  <None Remove="Resources\Images\not3.png" />
+	  <None Remove="Resources\Images\not4.png" />
+	  <None Remove="Resources\Images\not5.png" />
+	  <None Remove="Resources\Images\not6.png" />
 	  <None Remove="Resources\Images\pagar.png" />
 	  <None Remove="Resources\Images\piramidedelhorizonteinfinitosf.png" />
 	  <None Remove="Resources\Images\simbolodeorigenestelarsf.png" />
@@ -90,6 +99,12 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="DetalleArticuloPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="DetalleNoticiaPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NoticiasPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

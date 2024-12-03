@@ -7,6 +7,8 @@
             InitializeComponent();
 
             Routing.RegisterRoute("DetalleArticuloPage", typeof(DetalleArticuloPage));
+            Routing.RegisterRoute("NoticiasPage", typeof(NoticiasPage));
+            Routing.RegisterRoute("DetalleNoticiaPage", typeof(DetalleNoticiaPage));
 
         }
 

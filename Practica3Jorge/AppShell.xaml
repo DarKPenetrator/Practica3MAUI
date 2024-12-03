@@ -5,14 +5,20 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Practica3Jorge"
     Title="Practica3Jorge"
-    Shell.BackgroundColor="#30feb8"
+    Shell.BackgroundColor="#00afaf"
+    Shell.FlyoutBackgroundColor="AntiqueWhite"
     Shell.FlyoutBehavior="Flyout"
-    Shell.TabBarIsVisible="True">
+    Shell.TabBarIsVisible="True"
+    Shell.TabBarBackgroundColor="#00afaf"
+    Shell.TabBarForegroundColor="AntiqueWhite"
+    Shell.TabBarTitleColor="AntiqueWhite">
+    
+    <!-- Texto blanco para íconos y etiquetas -->
 
     <Shell.FlyoutHeader>
         <VerticalStackLayout
             Padding="15"
-            BackgroundColor="AliceBlue"
+            BackgroundColor="#1C1C1C" 
             VerticalOptions="CenterAndExpand">
             <Image
                 HeightRequest="120"
@@ -23,7 +29,9 @@
                 FontAttributes="Bold"
                 FontSize="28"
                 HorizontalTextAlignment="Center"
-                Text="Tienda Galactica" />
+                Text="Tienda Galactica"
+                TextColor="WhiteSmoke" />
+            <!-- Texto en blanco -->
         </VerticalStackLayout>
     </Shell.FlyoutHeader>
 
@@ -35,20 +43,15 @@
             Route="MainPage" />
         <ShellContent
             Title="Artículos"
-            
             Icon="lista.png"
             ContentTemplate="{DataTemplate local:ArticulosPage}"
             Route="ArticulosPage" />
-
         <ShellContent
             Title="Carrito"
-            
             Icon="cesta.png"
             ContentTemplate="{DataTemplate local:CestaPage}"
-            Route="CestaPage" />
-  
-     
-
+            Route="CestaPage" 
+            />
     </FlyoutItem>
 
     <Shell.ToolbarItems>
@@ -56,8 +59,6 @@
             IconImageSource="cesta.png"
             Order="Primary"
             Priority="1"
-            Clicked="OnCestaToolbarClicked"/>
+            Clicked="OnCestaToolbarClicked" />
     </Shell.ToolbarItems>
-
 </Shell>
-
